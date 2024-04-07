@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 26px 160px;
+    background: linear-gradient(180deg, #4B2C24 0%, #2B1712 100%);
+    min-height: 100vh;
+
+    @media screen and (max-width:768px) {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        margin-bottom: 99px;
+
+        @media screen and (max-width:768px) {
+            margin-bottom: 36px;
+        }
+
+        .logo {
+
+            margin-right: 589px;
+
+            @media screen and (max-width:768px) {
+                margin: auto;
+                display: block;
+            }
+        }
+
+        a {
+            margin-right: 72px;
+            text-decoration: none;
+            color: var(--white-color, #FFF);
+            font-family: Pacifico;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+
+            @media screen and (max-width:768px) {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        display: flex;
+
+        @media screen and (max-width:768px) {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        .home-coffee {
+            @media screen and (max-width:768px) {
+                width: 320px;
+                height: 354.558px;
+
+            }
+        }
+
+        .box {
+            margin-left: 72px;
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                color: var(--second-color, #DDB66F);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+
+
+            h1 {
+                color: var(--white-color, #FFF);
+
+
+                font-family: Pacifico;
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+
+                @media screen and (max-width:768px) {
+                    font-size: 44px;
+                    width: 100%;
+                }
+            }
+
+            p {
+                color: var(--white-color, #FFF);
+                width: 412px;
+
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+}
+
+.container2 {
+    padding: 133px;
+    border-radius: 104px 104px 0px 0px;
+    background: var(--first-color, #492D26);
+display: flex;
+    .left-box {
+
+        button {
+            display: inline-flex;
+            padding: 0px 28px 16px 0px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 64px;
+            background: var(--first-color-alt, #2B1712);
+            box-shadow: 0px 8px 24px 0px rgba(27, 17, 14, 0.50);
+            color: #FFF;
+            a {
+                color: var(--white-color, #FFF);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding: 16px 28px;
+                text-decoration: none;
+            }
+
+
+        }
+
+        p {
+            margin-right:166px; 
+            width: 418px;
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    
+}
+
+.container3 {
+    padding: 172px 160px;
+    border-radius: 104px 104px 0px 0px;
+    background: var(--white-color, #FFF);
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width:768px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .box2 {
+        // margin-left: 107px;
+
+        h1 {
+            color: var(--title-color, #2E2624);
+            text-align: center;
+
+            font-family: Pacifico;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+        }
+
+        p {
+            color: var(--text-color, #5B4C48);
+            width: 463px;
+
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            @media screen and (max-width:768px) {
+                width: 328px;
+                margin-top: 24px;
+                margin-bottom: 48px;
+            }
+        }
+    }
+}
